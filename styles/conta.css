@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #717171;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+  position: relative;
+  background-color: hsl(0, 0%, 25%);
+  width: 400px;
+  height: 400px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -3px 3px 8px 2px rgba(0,0,0,0.6) ;
+}
+
+#logoff-button{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 12px;
+  background: #1C5FBA;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container-dadosPessoais{
+  display: flex;
+  flex-direction: column;
+}

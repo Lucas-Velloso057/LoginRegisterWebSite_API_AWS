@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #717171;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+  background-color: hsl(0, 0%, 25%);
+  width: 400px;
+  height: 400px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -3px 3px 8px 2px rgba(0,0,0,0.6) ;
+}
+
+.container label{
+  font-size: 1.3rem;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+.container-email, .container-senha{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  width: 250px;
+}
+
+.container input{
+  font-size: 1.1rem;
+  padding: 5px;
+  width: 236px;
+}
+
+.register-text{
+font-size: 1rem;
+}
+.cadastro{
+  text-decoration: none;
+  color: rgb(62, 179, 252)
+}
+
+.cadastro:hover{
+  text-decoration: underline;
+}
+
+.submit {
+  margin: 20px 0 0 0;
+	box-shadow:inset -1px 1px 0px 0px 0;
+  background: linear-gradient(#ffbf00, #f2a50c);
+	border-radius:3px;
+	border: none;
+	cursor:pointer;
+  color: #332200;
+	font-family:Arial;
+	font-size:1.25rem;
+	font-weight:bold;
+	padding:12px 88px;
+	text-decoration:none;
+	text-shadow: 0px 1px 0px 0;
+  justify-self: center;
+}
+
+.submit:hover {
+  background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+.submit:active {
+  position:relative;
+	top:1px;
+}
